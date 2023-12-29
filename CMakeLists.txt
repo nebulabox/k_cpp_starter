@@ -1,10 +1,10 @@
 cmake_minimum_required (VERSION 3.15)
 cmake_policy(VERSION 3.15)
 
-set(TARGET_NAME "k")
+set(TARGET_NAME "cpp-start")
 
 project(${TARGET_NAME} VERSION 1.0
-          DESCRIPTION "K project"
+          DESCRIPTION "cpp start project"
           LANGUAGES C CXX)
 
 # Books: 
@@ -127,7 +127,7 @@ include(CheckCXXCompilerFlag)
 # endif()
 
 
-# Check cxx source can complie. CMAKE_REQUIRED_FLAGS : Additional flags to pass to the compiler.
+# Check cxx source can complie
 set(CMAKE_REQUIRED_FLAGS "${CMAKE_CXX_FLAGS}")
 check_cxx_source_compiles(
    "#include <mutex>
