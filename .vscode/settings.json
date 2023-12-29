@@ -1,0 +1,8 @@
+{
+	"files.associations": {
+		"*.txt": "markdown",
+		"CMakeLists.txt": "cmake",
+		"services-start": "shellscript",
+		"functional": "cpp"
+	}
+}
